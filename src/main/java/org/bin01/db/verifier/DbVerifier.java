@@ -10,7 +10,7 @@
  * the License.
  */
 
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import static java.lang.String.format;

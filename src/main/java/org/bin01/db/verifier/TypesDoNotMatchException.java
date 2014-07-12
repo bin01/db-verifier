@@ -9,7 +9,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 public class TypesDoNotMatchException extends RuntimeException {
   private static final long serialVersionUID = 1362000284976780495L;

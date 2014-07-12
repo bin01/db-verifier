@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import java.io.IOException;
 import java.io.InputStream;

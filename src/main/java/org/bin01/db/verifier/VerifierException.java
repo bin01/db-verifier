@@ -1,4 +1,4 @@
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 /*
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except

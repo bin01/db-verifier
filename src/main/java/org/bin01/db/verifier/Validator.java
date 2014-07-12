@@ -9,7 +9,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -33,8 +33,9 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
 
-import com.bin01.db.verifier.QueryResult.State;
-import com.bin01.db.verifier.Validator.ChangedRow.Changed;
+import org.bin01.db.verifier.QueryResult.State;
+import org.bin01.db.verifier.Validator.ChangedRow.Changed;
+
 import com.google.common.base.Function;
 import com.google.common.base.Joiner;
 import com.google.common.base.Stopwatch;

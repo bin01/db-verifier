@@ -9,7 +9,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import io.airlift.configuration.Config;

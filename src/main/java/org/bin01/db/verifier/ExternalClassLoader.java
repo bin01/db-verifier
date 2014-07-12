@@ -9,7 +9,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import io.tesla.aether.Repository;
 import io.tesla.aether.TeslaAether;

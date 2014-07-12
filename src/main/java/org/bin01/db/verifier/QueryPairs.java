@@ -1,4 +1,4 @@
-package com.bin01.db.verifier;
+package org.bin01.db.verifier;
 
 import java.util.List;
 
