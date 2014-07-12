@@ -11,11 +11,10 @@ It is built using the PrestoDB's verifier code-base. It improves upon Presto-DB 
 To use the project, do the following:
 
 1. Download the project code.
-2. Perform maven install.
-	```mvn clean install```
+2. Perform maven install. `mvn clean install`
 3. Prepare the config.properties.
-
-	```query-json-path=examples/queries.json 
+	```
+	   query-json-path=examples/queries.json 
        suite=default
        max-row-count=100000
        always-report=true
@@ -28,7 +27,8 @@ To use the project, do the following:
        control.password=
        control.gateway=jdbc:mysql://localhost:3306/employees
        control-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31
-	   thread-count=1```
+	   thread-count=1
+    ```
 4. Rename the db-verifier-{version}-executable.jar to  ```db-verifier```, make it executable with ```chmod +x```, then run it:
 	 ```./db-verifier config.properties```
 
