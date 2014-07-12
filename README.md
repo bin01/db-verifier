@@ -14,20 +14,19 @@ To use the project, do the following:
 2. Perform maven install.
 	```mvn clean install```
 3. Prepare the config.properties.
-	```properties
-	   query-json-path=examples/queries.json
-       suite=default
-       max-row-count=100000
-       always-report=true
-       test.username=root
-       test.password=
-       test.gateway=jdbc:mysql://localhost:3306/employees
-       test-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31
-       test-jdbc-driver-name=com.mysql.jdbc.Driver
-       control.username=root
-       control.password=
-       control.gateway=jdbc:mysql://localhost:3306/employees
-       control-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31
+	```query-json-path=examples/queries.json<br>
+       suite=default<br>
+       max-row-count=100000<br>
+       always-report=true<br>
+       test.username=root<br>
+       test.password=<br>
+       test.gateway=jdbc:mysql://localhost:3306/employees<br>
+       test-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31<br>
+       test-jdbc-driver-name=com.mysql.jdbc.Driver<br>
+       control.username=root<br>
+       control.password=<br>
+       control.gateway=jdbc:mysql://localhost:3306/employees<br>
+       control-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31<br>
 	   thread-count=1```
 4. Rename the db-verifier-{version}-executable.jar to  ```db-verifier```, make it executable with ```chmod +x```, then run it:
 	 ```./db-verifier config.properties```
