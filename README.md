@@ -12,8 +12,11 @@ To use the project, do the following:
 
 1. Download the project code.
 2. Perform maven install.
+
 	```mvn clean install```
+	
 3. Prepare the config.properties.
+
 	```query-json-path=examples/queries.json 
 	
        suite=default
@@ -41,6 +44,7 @@ To use the project, do the following:
        control-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31
 	   
 	   thread-count=1```
+	   
 4. Rename the db-verifier-{version}-executable.jar to  ```db-verifier```, make it executable with ```chmod +x```, then run it:
 	 ```./db-verifier config.properties```
 
