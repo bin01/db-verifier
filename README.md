@@ -4,16 +4,15 @@ This project is a utility that can be used to test data between two databases (l
 
 It is built using the PrestoDB's verifier code-base. It improves upon PrestoDB's verifier implmentation in two ways:
 
-1. The JDBC Driver's are external dependencies of the project. The JDBC driver jar's can be provided as maven co-ordinates which are resolved at runtime. As a result, using this project we can verify data of any database as long as it supports JDBC.
-2. The queries for verifying the data is provided as JSON. This removes any external dependency of storing the queries MySQL.
-
+1. The JDBC Driver's are external runtime dependencies of the project which are provided as maven co-ordinates that are resolved during runtime. As a result, using this project we can verify data of any database as long as it supports JDBC and the jar is accessible via Maven.
+2. The queries for verifying the data are provided as JSON. This removes any external dependency of storing the queries MySQL.
 
 To use the project, do the following:
 
 1. Download the project code.
 2. Perform maven install.
 ```mvn clean install```
-3. Prepare the config.properties.
+3. Create the config.properties.
 
 	```query-json-path=examples/queries.json 
        suite=default
