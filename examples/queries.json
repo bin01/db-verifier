@@ -1,0 +1,18 @@
+{
+	"queries" : [
+		{
+			"suite" : "default",
+			"name" : "Departments Query",
+			"test" : {
+				"catalog" : "employees",
+				"schema" : "employees",
+				"query" : "select * from departments"
+			},
+			"control" : {
+				"catalog" : "employees",				
+				"schema" : "employees",
+				"query" : "select * from departments"
+			}
+		}
+	]
+}
