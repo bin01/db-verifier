@@ -14,7 +14,8 @@ To use the project, do the following:
 2. Perform maven install.
 	```mvn clean install```
 3. Prepare the config.properties.
-	```query-json-path=examples/queries.json
+	```properties
+	   query-json-path=examples/queries.json
        suite=default
        max-row-count=100000
        always-report=true
