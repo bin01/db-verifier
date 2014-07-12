@@ -1,0 +1,10 @@
+target/
+pom.xml.versionsBackup
+test-output/
+.DS_Store
+.classpath
+.settings
+.project
+test-output
+*~
+*.class
