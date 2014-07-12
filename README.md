@@ -2,7 +2,7 @@
 
 This project is a utility that can be used to test data between two databases (like MySQL), same or different. It can be used for making sure that data migrations are accurate or database upgrades work correctly. 
 
-It is built using the PrestoDB's verifier code-base. It improves upon Presto-DB in two ways:
+It is built using the PrestoDB's verifier code-base. It improves upon PrestoDB's verifier implmentation in two ways:
 
 1. The JDBC Driver's are external dependencies of the project. The JDBC driver jar's can be provided as maven co-ordinates which are resolved at runtime. As a result, using this project we can verify data of any database as long as it supports JDBC.
 2. The queries for verifying the data is provided as JSON. This removes any external dependency of storing the queries MySQL.
@@ -30,6 +30,6 @@ To use the project, do the following:
        control-jdbc-driver-maven-coordinates=mysql:mysql-connector-java:5.1.31
 	   thread-count=1
     ```
-4. Rename the db-verifier-{version}-executable.jar to  ```db-verifier```, make it executable with ```chmod +x```, then run it:
-	 ```./db-verifier config.properties```
+4. Rename the db-verifier-{version}-executable.jar to  `db-verifier`, make it executable with `chmod +x`, then run it:
+	 `./db-verifier config.properties`
 
